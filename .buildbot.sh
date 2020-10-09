@@ -2,7 +2,7 @@
 
 set -e
 
-
+mkdir -p ./bin
 for example in *.c; do
 	if [ "${example}" == "seal.c" ]; then
 		continue
